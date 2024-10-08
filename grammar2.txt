@@ -1,0 +1,12 @@
+ROOT -> S 
+
+S -> NP VP  
+PP -> P NP 
+NP -> Det N  | NP PP 
+VP -> V NP   | VP PP | V2 | V3 NP PP 
+Det ->  'the' | 'her' | 'his' | 'their' | 'my' | 'a'
+N -> 'panda' | 'cookie' | 'friend' | 'sandwich' | 'pajamas'
+V -> 'saw' | 'ate' | 'took'
+V2 -> 'existed' | 'died' | 'vanished' | 'ate'
+V3 -> 'gave' | 'lent' | 'sent'
+P -> 'in'   

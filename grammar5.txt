@@ -1,0 +1,18 @@
+ROOT -> S 
+
+S -> NP VP  
+PP -> P NP 
+NP -> Det N | Det ADJ N | Det ADV ADJ N | NP PP | Det ADJ N ADV | Det N ADV | Det ADJ N | Det VERY ADJ N | Det N Det ADJ N P NP | SS NP | Det N SS VP | P NP | Det N NP VP PP
+SS -> 'that' S
+ADJ -> ADJ ADJ
+VERY -> 'very' | 'very' VERY
+VP -> V NP | V2 | V3 NP PP | V2 ADV | ADV V2 | V Det ADJ N ADV | VP PP | V2 VERY ADV | V3 NP | V2 VERY ADV V NP | V Det ADJ N VP | V2 V NP | V3 NP SS S
+Det -> 'the' | 'her' | 'his' | 'their' | 'my' | 'a'
+N -> 'panda' | 'cookie' | 'friend' | 'sandwich' | 'pajamas'
+V -> 'saw' | 'ate' | 'took'
+V1 -> 'pleased' | 'perplexed'
+V2 -> 'existed' | 'died' | 'vanished' | 'ate'
+V3 -> 'gave' | 'lent' | 'sent'
+P -> 'in' | 'to'    
+ADJ -> 'ponderous' | 'delicious' | 'excited'
+ADV -> 'peacefully' | 'joyfully'
